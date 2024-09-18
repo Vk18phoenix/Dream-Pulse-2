@@ -1,0 +1,276 @@
+*{}
+.head{
+  background: url("./dream-pulse-header.jpg");
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  gap: 400px;
+  position: relative;
+}
+.logo{
+  border: 2px solid white;
+  width: 200px;
+  height: 100px;
+  border:0.5px solid black;
+  position: absolute;
+  left: 145px;
+  top: 70px;
+}
+#img1{
+  width: 35px; 
+  height: 35px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  transition: transform 0.3s ease-in-out;
+}
+#img1:hover{
+  transform: scale(1.1);
+}
+#img1{
+  margin-right: 15px;
+}
+.social{
+  margin-left: 20px;
+  margin-top: 75px;
+}
+.nav{
+  padding-top: 55px;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 27vw;
+  height: 350vh;
+}
+.nav1{
+  width: 27vw;
+  margin-left: 30px;
+  margin-top: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.order{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 600;
+  font-size: larger;
+}
+.order:hover{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.list{
+  margin-top: 75px;
+}
+#RB{
+  margin-top: 150px;
+  width: 450px;
+  height: 400px;
+  background: linear-gradient(to right, whitesmoke, rgba(255, 255, 255, 0));
+  box-shadow: 2px 2px 5px white;
+}
+h2{
+  color: #0096FF;
+  font-weight: 300;
+}
+#para{
+  color: black;
+}
+#img2{
+  width: 100px;
+  height: 100px;
+}
+.box3{
+  display: flex;
+  margin-left: 425px;
+}
+#img3{
+  width: 100px;
+  height: 75px;
+}
+#about{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.box1{
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.box2{
+  margin-top: 50px;
+}
+#para2{
+  color: #0096FF;
+  font-weight: 400;
+  font-size: larger;
+}
+.foot{
+  margin-top: 35px;
+  color: white;
+  font-weight: 500;
+}
+h1 {
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  margin-left: 150px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 5;
+}
+
+.box{
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#img7, #img4, #img5, #img6, #img8{
+  width: 200px;
+  height: 350px;
+  padding-right: 50px;
+  margin-top: 7px;
+}
+.images{
+  display: flex;
+  align-items: center;
+}
+#OW{
+  margin-left: 450px;
+  height: 500px;
+  border: 0.5px solid rgb(12, 12, 12);
+  padding-left: 50px;
+  width: 66vw;
+  height: 66vh; 
+}
+.head2{
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 0.5px solid black;
+  position: absolute;
+ 
+  width: 68vw;
+  top: 163vh;
+  right: 40px;
+  left: 470px;
+}
+
+
+#clients{
+  margin-left: 450px;
+  margin-top: 75px;
+}
+#pr2{
+  font-size: large;
+  color: gray;
+}
+.images2{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.img8{
+  border: 1px solid black;
+  align-items: center;
+}
+
+.images3{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.Mainimg{
+  margin-left: -80px;
+}
+#talk{
+  display: flex;
+  gap: 100px;
+  margin-top: 75px;
+}
+.heading2{
+  margin-left: 450px;
+}
+.send{
+  width: 250px;
+  height: 450px;
+}
+/* .talk1{
+  margin-left: 450px;
+  width: 350px !important;
+  height: 250px;
+  border: 2px solid rgb(13, 13, 13);
+  padding-top: 35px;
+}
+.talk2{
+  margin-left: 450px;
+  width: 375px;
+  height: 285px;
+  border: 0.5px solid grey;
+  position: absolute;
+  left: 30.5vw;
+  top: 296vh;
+} */
+
+.talk1{
+  margin-left: 450px;
+  width: 400px;
+  height: 250px;
+  border: 2px solid rgb(13, 13, 13);
+  padding-left: 30px;
+  padding-top: 35px;
+}
+.talk2{
+  width: 428px;
+  height: 280px;
+  border: 0.5px solid grey;
+  position: absolute;
+  left: 30.5vw;
+  top:296vh !important;
+}
+.msg1{
+  border-top: black;
+  border-left: black;
+  border-right: black;
+  width: 350px;
+  height: 30px;
+}
+.msg2{
+  border-top: black;
+  border-left: black;
+  border-right: black;
+  width: 350px;
+  height: 30px;
+}
+.msg3{
+  border-top: black;
+  border-left: black;
+  border-right: black;
+  width: 350px;
+  height: 150px;
+}
+#p4{
+  font-size: large;
+  font-weight: 300;
+}
+button{
+  margin-left: 300px;
+  width: 40px;
+  outline: none;
+}
